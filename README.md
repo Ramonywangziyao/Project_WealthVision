@@ -1,8 +1,8 @@
-# proj_dynamicVision
-Computer Vision project for real-time activity recognition
+# Project_WealthVision
+Computer Vision project for evaluating people's wealth based on social network images
 
 <h2>Introduction</h2>
-<p>To make Computer Vision and Machine Learning be more useful in life, human activity recognition based on real-time video stream captured by camera should be focused more. However, there are some technical difficulties for making the activity recognition real-time. There are delays or there might be big delays. This project aims to achieve this goal, to distinguish actions while reducing the delay with relatively high accuracy by adopting Long-term Recurrent Convolutional Networks(LCRNs).</p>
+<p>To make computer understand what kind of people are rich, and what kind of people are normal ones and do not have too much money. And also their top interest.</p>
 <br/>
 <h2>Contributors</h2>
 <ul>
@@ -12,15 +12,15 @@ Computer Vision project for real-time activity recognition
 <br/>
 <h2>Goal</h2>
 <ol>
-<li>Complete the RNN for activity recognition</li>
-<li>Reduce delay and increase accuracy</li>
-<li>Making it real-time</li>
-<li>Adding video description features and functions</li>
+<li>Using CNN / RCNN for object detection</li>
+<li>Train models for various target objects</li>
+<li>Increase the accuracy</li>
+<li>Adding interest detection</li>
 </ol>
 <br/>
 <h2>Resources</h2>
 <ul>
-<li>Tool: Caffe / TensorFlow</li>
-<li>Training Source: UCF-101</li>
-<li>Code used:</li>
+<li>Tool: Caffe</li>
+<li>Training Source: Collected</li>
+<li>Code used: </li>
 </ul>
