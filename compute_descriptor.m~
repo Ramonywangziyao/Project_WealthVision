@@ -1,0 +1,19 @@
+function descriptor,label = compute_descriptor(obj_label,class_label)
+    descriptor=zeros(1,5)
+    label= ''
+    for i=1:size(obj_label,1)
+       if obj_label(i,1) == 'sportcar'
+           descriptor(1,1) = descriptor(1,1)+1
+       elseif obj_label(i,1) == 'watch'
+           descriptor(1,2) = descriptor(1,1)+1
+       elseif obj_label(i,1) == 'watch'
+           descriptor(1,2) = descriptor(1,1)+1
+       elseif obj_label(i,1) == 'watch'
+           descriptor(1,2) = descriptor(1,1)+1
+    end
+    
+    
+    
+    
+
+end
